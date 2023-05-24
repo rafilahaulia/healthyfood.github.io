@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+.navbar-head a.our-logo {
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: bold;
+}
+
+.navbar-head {
+    background: #E7B10A !important;
+    /* height: 70px; */
+}
+
+.bg-header {
+    background-image: url(/assets/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: end;
+}
+
+.about-pg span {
+    color: #c5c1c1;
+}
+
+.title-word h1 {
+    font-size: 4em;
+}
+
+.title-word p {
+    font-size: 17px;
+}
+
+.about-wrd a {
+    text-decoration: none;
+    background-color: #E7B10A;
+    border-radius: 7px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.btn-header a {
+    text-decoration: none;
+    border: 1px solid #E7B10A;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: black;
+}
+
+.btn-header a:hover {
+    background-color: #E7B10A;
+}
+
+/* PRODUCT CSS */
+.card-product img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.card-product span {
+    color: #c5c1c1;
+}
+
+.ic-product i {
+    color: #FFD93D;
+}
+
+/* RECIPE */
+.bg-recipe {
+    background: #B1D7B4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.form-group input[type="text"] {
+    height: 8vh;
+    font-size: 13px;
+    border: 1px solid black;
+}
+
+.bg-recipe .btn {
+    background: #E7B10A !important;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 aspect ratio (change as needed) */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* FOOTER STYLE */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer h1 {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 25px;
+}
+
+footer p {
+    font-size: 13px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container a {
+    text-decoration: none;
+}
+
+.icon-container i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+}
+
+.back-to-top-btn {
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    font-size: 20px;
+    border-radius: 50%;
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top-btn:hover {
+    background-color: #555;
+}
+
+.back-to-top-btn.show {
+    opacity: 1;
+}
+
+.book-word h5 {
+    font-size: 17px !important;
+}
+
+.book-word p {
+    font-size: 16px !important;
+}
